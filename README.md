@@ -1,4 +1,4 @@
-# Jan 2022 IAP: Using dash andplotly
+# Jan 2022 IAP: Using dash and plotly 
 
 Some commands to run:
 
