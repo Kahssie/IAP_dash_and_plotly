@@ -45,12 +45,13 @@ app.layout = html.Div([
 def update_output_div(clickData):
     if clickData:
         ### print clickdata to see how it is structured
+        print(clickData)
         ### then look for the key -> 'location'
         ### write code to retrieve the value of location properly
-        selected_country = None 
+        selected_country = clickData['points'][0]['location'] 
         df_country = df[df.iso_code == selected_country]
-        ### write code to create a plotly scatter plot figure with date as the X-axis and new_deaths as the Y-axis 
-        fig = None
+        ### write code to create a plotly scatter plot figure with date as the X-axis and new_cases as the Y-axis 
+        fig = px.scatter(df_country, x='date', y='new_cases')
         return fig
     else:
         return {}
