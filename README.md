@@ -7,12 +7,7 @@ Some commands to run:
 
 `pip install --upgrade pip`
 
-`pip install -r requirements.txt`
-
-Other things you may need to install:
-- python dash
-- Some modules for dash if it did not get included
-- pandas
+`pip install -r requirements.txt
 
 Standard command to run test file:
 `python dash_intro_test.py`
