@@ -35,7 +35,7 @@ app.layout = html.Div(children=[
     '''),
 
     dcc.Graph(
-        id='example-graph',
+        id='example-graph', # not necessary for static websites but works with anyway
         figure=fig
     )
 ])
