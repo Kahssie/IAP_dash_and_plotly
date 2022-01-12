@@ -1,4 +1,4 @@
-# IAP_dash_and_plotly (Jan 2022)
+# Jan 2022 IAP: Using dash andplotly
 
 Some commands to run:
 
@@ -11,4 +11,11 @@ Some commands to run:
 `pip install -r requirements.txt`
 
 Standard command to run test file:
+
 `python dash_intro_test.py`
+
+## Future exploration
+- Advanced callbacks
+- `dcc.Graph()` understanding
+- Other plots (especially 3D plots)
+- Heroku deployment + Heroku Kaffeiene
